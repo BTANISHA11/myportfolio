@@ -12,7 +12,7 @@ const C4GT = () => {
     >
       {/* JOB TITLE & COMPANY */}
       <div className="flex flex-wrap gap-1 text-white font-medium text-xl font-titleFont flex-col sml:flex-row">
-        <h3>Full Stack Developer</h3>
+        <h3>Full Stack Developer/ ALIML Developer</h3>
         <span className="text-sm mt-1 font-medium text-textGreen flex">
           @ QuickIsCool &ensp;
         </span>
@@ -30,7 +30,17 @@ const C4GT = () => {
         Built a user-friendly dashboard, enhancing functionality and boosting user accuracy and engagement by
         50% on the live coding platform
           <br />
-          Key responsibilities included:
+          <ul className="mt-4 flex flex-col gap-3 text-textDark">
+          <BulletPoint
+            headningText="Optimizing Performance"
+            contentText=" Optimized website for improved user experience, resulting in a 30%
+            increase in engagement on Discord."
+          />
+          <BulletPoint
+          headningText="Collaboration"
+          contentText="Collaborated closely with team members to address user feedback and continuously improve platform features."
+          />
+          </ul>
         </strong>
       </p> 
 
