@@ -8,7 +8,7 @@ export const data = {
       github: "https://github.com/BTANISHA11/jobathon",
       website: "https://jobathon.vercel.app/",
       
-      img: "https://credcv.com/wp-content/uploads/2021/06/benefits-of-having-an-own-job-portal_033e017b0_3810.jpeg",
+      img: "https://i.postimg.cc/SKvL4wr6/job.jpg",
       // yt: "https://youtu.be/HX6boY6LCmI",
     },
     {

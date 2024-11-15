@@ -1,81 +1,29 @@
-{
-    "coreTechnicalSkills": [
-       
-        {
-            "name": "React.js",
-            "percent": 90
-        },
-        {
-            "name": "Next.js", 
-            "percent": 80
-        },
-        {
-            "name": "Node.js",
-            "percent": 80
-        },
-        {
-            "name": "Express.js",
-            "percent": 85
-        },
-        {
-            "name": "Mongo DB",
-            "percent": 70
-        },
-        
-        {
-            "name":"Machine Learning",
-            "percent":70
-        },
-        {
-            "name":"Artificiali Intelligence",
-            "percent":70
-        },
-        {
-            "name": "HTML/CSS",
-            "percent": 90
-        },
-        {
-            "name": "JavaScript",
-            "percent": 85
-        }
-    ],
-
-    "additionalSkills":[
-        {
-            "name": "Git/Github",
-            "percent": 80
-        },
-        {
-            "name": "Tailwind CSS",
-            "percent": 80
-        },
-        {
-            "name": "Firebase",
-            "percent": 70
-        },
-        {
-            "name": "Java",
-            "percent": 70
-        },
-        {
-            "name": "C/C++",
-            "percent": 90
-        },
-        {
-            "name": "Python",
-            "percent": 80
-        },
-        {
-            "name": "My Sql (Queries)", 
-            "percent": 80
-        },
-        {
-            "name": "Data Structures & Algorithms",
-            "percent": 80
-        },
-        {
-            "name": "Redux Toolkit",
-            "percent": 75
-        }
-    ]
-}
+[
+    { "name": "C++", "image": "https://i.postimg.cc/gc6x19Ry/c.png" },
+    { "name": "C", "image": "https://i.postimg.cc/267KS9L0/c.png" },
+    { "name": "DSA", "image": "https://i.postimg.cc/ZRNYwM5Y/dsa.jpg"},
+    { "name": "Python", "image": "https://i.postimg.cc/9F2JMHdV/python.png" },
+    { "name": "Java", "image": "https://i.postimg.cc/7hMGc7cG/java.png" },
+    { "name": "MySQL", "image": "https://i.postimg.cc/cC8tc27m/mysql.png" },
+    { "name": "MongoDB", "image": "https://i.postimg.cc/7LpY1V91/mongodb.png" },
+    { "name": "Next.js", "image": "https://i.postimg.cc/C1jQKGKL/nextjs.png"},
+    { "name": "Git", "image": "https://i.postimg.cc/htrFjjFL/git.png" },
+    { "name": "GitHub", "image": "https://i.postimg.cc/mkcpyL65/github.png" },
+    { "name": "HTML", "image": "https://i.postimg.cc/50mfW34V/html.png" },
+    { "name": "CSS", "image": "https://i.postimg.cc/nV1kjQRw/css.png" },
+    { "name": "Bootstrap", "image": "https://i.postimg.cc/VLmzg2Fk/bootstrap.png" },
+    { "name": "Tailwind CSS", "image": "https://i.postimg.cc/hvb21KFL/tailwind.png"},
+    { "name": "JavaScript", "image": "https://i.postimg.cc/P5wsjjTH/javascript.png" },
+    { "name": "React", "image": "https://i.postimg.cc/G3D880X7/react.png" },
+    { "name": "Node.js", "image": "https://i.postimg.cc/YqNDfCrh/node.png" },
+    { "name": "Express", "image": "https://i.postimg.cc/Y9bDKXPY/express.png" },
+    { "name": "Machine Learning", "image": "https://i.postimg.cc/dtncBBnM/ml.jpg" },
+    { "name": "Artificial Intelligence", "image": "https://i.postimg.cc/vZzkrL71/ai.jpg"},
+    { "name": "Computer Vision", "image": "https://i.postimg.cc/5y0VZKxF/cv.jpg"},
+    { "name": "Data Science", "image": "https://i.postimg.cc/dVkn12HP/datascience.jpg"},
+    { "name": "GenAI", "image": "https://i.postimg.cc/nVyxdkyM/genai.jpg"},
+    { "name": "Firebase", "image": "https://i.postimg.cc/y8LTNJjC/firebase.png"},
+    { "name": "Docker", "image": "https://i.postimg.cc/7YDcG235/docker.png" },
+    { "name": "Postman", "image": "https://i.postimg.cc/V6Wq3ddh/postman.png" },
+    { "name": "Google Cloud", "image": "https://i.postimg.cc/FRSDYWfM/goole.png" }
+]
