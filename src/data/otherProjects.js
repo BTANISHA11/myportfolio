@@ -1,12 +1,5 @@
 export const otherProjects = [
-  {
-    title: "Beauty Buzz",
-    description:
-      "BEAUTY BUZZ is a revolutionary virtual makeup tool that offers users the ability to try on various makeup styles in real-time, making it easier than ever to experiment with different looks for any occasion",
-    gitLink: "https://github.com/BTANISHA11/beautybuzzz",
-    liveLink: "https://github.com/BTANISHA11/beautybuzzz",
-    listItems:["React.js", "Tailwind", "Machine Learning", "OpenCV", "Python", "Node.Js", "MongoDB"],
-  },
+  
   {
     title: "Chat App",
     description:
@@ -14,6 +7,16 @@ export const otherProjects = [
     gitLink: "https://github.com/BTANISHA11/chatapp",
     liveLink: "https://chatapp-neon-tau.vercel.app/",
     listItems:["Express.Js", "CSS", "Tailwind", "Node.Js", "Javascript", "Sockte.io"],
+  },
+
+  {
+    title: "Article Summarizer",
+    description:
+      "An open-source article summarizer that streamlines content creation & curation. Transform lengthy articles into concise summaries effortlessly, allowing you to grasp key points without spending hours reading.",
+    listItems: ["React", "Tailwind CSS", "Rapid Api", "Redux Toolkit"],
+    gitlink: "https://github.com/BTANISHA11/Article_Summarizer",
+    livelink: "https://article-summarizer-blush.vercel.app/",
+    // img: "https://www.twinglar.com/posts/902d7f00-b1ed-4ca3-8fce-bae95c527572.png",
   },
 
   {

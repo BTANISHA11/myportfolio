@@ -27,7 +27,7 @@ function SideSocials() {
     >
       <div className="flex flex-row items-center mb-2 social-icon-box">
         <a
-          href="https://github.com/Yash-Sajwan24"
+          href="https://github.com/BTANISHA11"
           target="_blank"
           rel="noreferrer"
           className="w-[40px] h-[40px] cursor-pointer p-[10px]"
@@ -75,6 +75,30 @@ function SideSocials() {
           </svg>
         </a>
       </div>
+      <div className="flex flex-row items-center mb-6 social-icon-box">
+  <a
+    href="https://linktr.ee/tanishab11"
+    aria-label="Linktree"
+    rel="noopener noreferrer"
+    target="_blank"
+    className="w-[40px] h-[40px] cursor-pointer p-[10px]"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      role="img"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="social-icon-svg text-theme-light-slate hover:stroke-theme-green hover:translate-y-[-3px]"
+    >
+      <title>Linktree</title>
+      <path d="M12 2v20m-6-6h12M6 12h12M6 18h12M6 6h12"></path>
+    </svg>
+  </a>
+</div>
       <div className="flex flex-row items-center -mt-3 mb-6">
         <a
           href="https://www.codechef.com/users/btanisha11"

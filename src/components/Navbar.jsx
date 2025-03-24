@@ -321,9 +321,11 @@ function Navbar({ toggle }) {
                 rel="noreferrer"
                 className="px-[50px] py-[18px] line"
               >
+              
                 Resume
               </a>
             </div>
+            
           </div>
         </aside>
       </nav>
