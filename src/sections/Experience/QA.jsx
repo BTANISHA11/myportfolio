@@ -13,15 +13,15 @@ const QA = () => {
     >
       {/* JOB TITLE & COMPANY */}
       <h3 className="flex gap-1 text-white font-medium text-xl font-titleFont flex-col sml:flex-row">
-      Software Developer
+      Software Developer Intern | Backend & APIs
         <span className="text-sm mt-1 font-medium text-textGreen flex">
-          @ iMarketVend &ensp;
+          @ PHICSIT Pvt Ltd &ensp;
         </span>
         <em className="text-sm"></em>
       </h3>
 
       {/* Working Dates */}
-      <p className="pt-3 text-white">July 2024 - August 2024</p>
+      <p className="pt-3 text-white">Nov 2024 - Jun 2025 | New Delhi, India</p>
 
       {/* INTRODUCTION */}
       {/* <p className="mt-3 text-base font-light flex gap-2 text-textDark">
@@ -35,18 +35,12 @@ const QA = () => {
       {/* Bullet Points */}
       <ul className="mt-4 flex flex-col gap-3 text-textDark">
         <BulletPoint
-          headningText="Performance"
-          contentText="Achieved 20% improvement by switching to Next.js from React.js. Led the team in transitioning, overseeing design,
-          development, and implementation."
-        />
-
-        <BulletPoint
-          headningText="Admin Dashboard for managing leads"
-          contentText="Architected Admin Dashboard, optimising company-wide processes with a 15% efficiency surge."
+          headningText="Backend Refactoring"
+          contentText="Enhanced system stability by 30% through asynchronous API refactoring and robust backend improvements."
         />
         <BulletPoint
-          headningText="Increased Efficiency"
-          contentText="Engineered server system enabling synchronous CRUD operations and custom roles. Increased marketing efficiency by 20%."
+          headningText="Code Review & Team Enablement"
+          contentText="Led peer code reviews and engineering collaboration practices that reduced developer onboarding time by 25%."
         />
       </ul>
     </motion.div>

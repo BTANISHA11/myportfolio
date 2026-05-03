@@ -2,55 +2,29 @@ import React, { useState } from "react";
 import SectionTitle from "./SectionTitle.jsx";
 import TeamLead from "./TeamLead.jsx";
 import QA from "./QA.jsx";
-import StartUp from "./StartUp.jsx";
 import Internship from "./Internship.jsx";
-import Freelance from "./Freelance.jsx";
 
 const Experience = () => {
   const [workTeamLead, setWorkTeamLead] = useState(true);
   const [workQA, setWorkQA] = useState(false);
-  const [workStartUp, setWorkStartUp] = useState(false);
   const [workInternship, setWorkInternship] = useState(false);
-  const [workFreelance, setWorkFreelance] = useState(false);
 
   const handleTeamLead = () => {
     setWorkTeamLead(true);
     setWorkQA(false);
-    setWorkStartUp(false);
     setWorkInternship(false);
-    setWorkFreelance(false);
   };
 
   const handleQA = () => {
     setWorkTeamLead(false);
     setWorkQA(true);
     setWorkInternship(false);
-    setWorkStartUp(false);
-    setWorkFreelance(false);
   };
 
   const handleInternship = () => {
     setWorkTeamLead(false);
     setWorkQA(false);
     setWorkInternship(true);
-    setWorkStartUp(false);
-    setWorkFreelance(false);
-  };
-
-  const handleStartUp = () => {
-    setWorkTeamLead(false);
-    setWorkQA(false);
-    setWorkInternship(false);
-    setWorkStartUp(true);
-    setWorkFreelance(false);
-  };
-
-  const handleFreelance = () => {
-    setWorkTeamLead(false);
-    setWorkQA(false);
-    setWorkInternship(false);
-    setWorkStartUp(false);
-    setWorkFreelance(true);
   };
 
   return (
@@ -78,7 +52,7 @@ const Experience = () => {
                   workTeamLead ? "text-textGreen" : "text-textDark"
                 }`}
               >
-                QuickIsCool
+                SITA
               </span>
               <br />
             </li>
@@ -95,7 +69,7 @@ const Experience = () => {
               <span
                 className={`${workQA ? "text-textGreen" : "text-textDark"}`}
               >
-                iMarketVend
+                PHICSIT Pvt Ltd
               </span>
               <br />
             </li>
@@ -118,47 +92,14 @@ const Experience = () => {
               GeeksforGeeks
               </span>
               <br />
-            </li> 
-
-            {/* StartUp */}
-             <li
-              onClick={handleStartUp}
-              className={`${
-                workStartUp
-                  ? "border-l-textGreen text-textGreen"
-                  : "border-l-hoverColor : text-textDark"
-              } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
-            >
-              <span
-                className={`${
-                  workStartUp ? "text-textGreen" : "text-textDark"
-                }`}
-              >
-                Gssoc'24
-              </span>
-              <br />
-            </li> 
-
-            {/* Freelance */}
-             <li
-              onClick={handleFreelance}
-              className={`${
-                workFreelance
-                  ? "border-l-textGreen text-textGreen"
-                  : "border-l-hoverColor : text-textDark"
-              } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
-            >
-              PHICSIT Pvt Ltd
-            </li> 
+            </li>
           </ul>
         </div>
 
         {/* Work information */}
         {workTeamLead && <TeamLead />}
         {workQA && <QA />}
-        {workStartUp && <StartUp/>}
         {workInternship && <Internship />}
-        {workFreelance && <Freelance />}
         
       </div>
     </section>

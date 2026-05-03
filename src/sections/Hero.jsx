@@ -20,15 +20,12 @@ const startVariants = {
 const options = {
   strings: [
     "    ",
-    "Full-Stack Developer",
-    "Machine Learning Engineer",
-    "AI Developer",
-    "Open Source Developer",
-    "React Specialist",
-    "Next.js Developer",
-    "Web Developer",
-    "Future Senior Dev",
-    "Aspiring Principal Engineer",
+    "AI Platform Engineer",
+    "Cloud Infrastructure Engineer",
+    "Enterprise AI Agent Developer",
+    "Azure + Terraform Builder",
+    "Backend & API Developer",
+    "AI Workflow Automation Engineer",
   ],
   autoStart: true,
   loop: true,
@@ -60,8 +57,9 @@ function Hero() {
         <Typewriter options={options} />
       </h3>
       <p className="bio max-w-[540px] mt-[20px] text-[20px] text-theme-gray-deep font-calibreRegular">
-        Experienced in developing and deploying full-functional, robust and
-        scalable web applications from base to production.
+        I build enterprise-grade AI workflows and cloud infrastructure on Azure,
+        combining Copilot Studio, MCP, Terraform, and Python to automate
+        operations at scale.
       </p>
       <div
         ref={btnRef}
@@ -70,10 +68,10 @@ function Hero() {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/BTANISHA11"
+          href="https://tanishaportfolio.app"
           className=" px-[50px] py-[18px]"
         >
-          Let's start with Github
+          Visit Portfolio
         </a>
       </div>
     </motion.section>

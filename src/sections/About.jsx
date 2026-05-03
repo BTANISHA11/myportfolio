@@ -19,15 +19,27 @@ function About() {
       <div className="flex flex-col md:flex-row align-middle min-h-full text-[20px] font-calibreRegular text-theme-gray-deep font-medium ">
         <div className="">
           <p className="mb-4">
-            I'm Tanisha Bansal, a passionate Full Stack Web Developer driven by a
-            fascination for technology. Inspired by Google Assistant, I delved
-            into coding in 2018 and fell in love with web development. Crafting
-            unique and functional web applications has become my forte.
-            Eager to learn and grow, I constantly explore new technologies. My goal is to create
-            meaningful solutions and use my skills to make a difference in the
-            world.
+            I am Tanisha Bansal, an AI Platform Engineer focused on cloud
+            infrastructure, enterprise automation, and intelligent agent
+            workflows. I currently build AI-driven platforms that connect user
+            intent to secure cloud actions using Microsoft technologies and Azure.
           </p>
-          <p>I consider myself an innovative thinker, a problem-solver and a team player. Looking forward to securing a position where I can efficiently contirbute my skills for the growth of the organisation and my build professional career.</p>
+          <p className="mb-4">
+            My core strengths include Azure governance automation, Terraform-based
+            landing zones, backend APIs, and LLM-powered orchestration with
+            Copilot Studio and MCP. I enjoy solving platform-scale problems where
+            reliability, speed, and developer experience matter.
+          </p>
+          <p className="mb-4">
+            Education: B.Tech in Information Technology, Guru Gobind Singh
+            Indraprastha University (2021 - 2025), CGPA 9.5/10.
+          </p>
+          <p>
+            Leadership & Achievements: AWS Community Builder & Technical Mentor,
+            supporting 1,000+ developers with cloud and AI guidance; Hackathon
+            Judge for 40+ hackathons evaluating 1,000+ projects for AI/ML
+            feasibility, cloud scalability, and architecture quality.
+          </p>
           {/* <p className="mb-4">
             Here are a few technologies I’ve been working with recently:
           </p>

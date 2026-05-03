@@ -18,19 +18,22 @@ function Contact() {
       <div className="flex flex-col md:flex-row align-middle min-h-full text-[20px] font-calibreRegular text-theme-gray-deep font-medium ">
         <div className="">
           <p className="mb-4 text-center text-[18px]">
-            I am actively looking for Internship opportunities in Software/Web
-            Developement. If you are looking to hire or just want to say Hi, my
-            inbox is always open and happy to hear from you.I always get an
-            acknowledgment for my side.
+            I am currently working as an AI Platform Engineer and open to
+            impactful opportunities in AI infrastructure, cloud platform
+            engineering, and backend systems. If you want to collaborate, hire,
+            or discuss cloud and AI ideas, my inbox is always open.
           </p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row align-middle min-h-full text-[20px] font-calibreRegular text-theme-gray-deep font-medium ">
-      Send me an email at:
+      Reach out at:
       </div>
       <h1 className="font-calibreSemiBold text-[10px] sm:text-[15px] md:text-[15px] lg:text-[20px] text-theme-lightest-slate">
               tanishab130@gmail.com
             </h1>
+      <p className="mt-3 text-center text-[16px] text-theme-gray-deep">
+        Delhi, India | +91-9213116476
+      </p>
       <div className="w-fit mt-9 border border-theme-green hover:bg-theme-green/10 cursor-pointer rounded flex  items-center text-theme-green">
         <a
           target="_blank"
@@ -38,7 +41,7 @@ function Contact() {
           href="https://www.linkedin.com/in/tanishabansal110902/"
           className=" px-[30px] py-[18px] text-[14px]"
         >
-          Say Hello
+          Connect on LinkedIn
         </a>
       </div>
     </section>

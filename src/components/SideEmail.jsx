@@ -19,7 +19,7 @@ const startVariants = {
 function SideEmail() {
 	return (
 		<motion.div className="hidden md:flex flex-col items-center fixed bottom-0 md:right-5 lg:right-8 min-w-[40px]  social-line" initial="initial" animate="end" variants={startVariants}>
-			<a href="mailto:yashsajwan12345@gmail.com" target="_blank" rel="noreferrer" className="email social-icon-box text-theme-light-slate font-sfMonoRegular text-[12px] mb-6 p-2">
+			<a href="mailto:tanishab130@gmail.com" target="_blank" rel="noreferrer" className="email social-icon-box text-theme-light-slate font-sfMonoRegular text-[12px] mb-6 p-2">
 				tanishab130@gmail.com
 			</a>
 		</motion.div>
